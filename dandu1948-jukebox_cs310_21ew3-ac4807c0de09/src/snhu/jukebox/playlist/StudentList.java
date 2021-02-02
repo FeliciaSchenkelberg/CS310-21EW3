@@ -25,6 +25,10 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
+		//Added myself into project as Tammie_Pease leaving code outline for others
+		String StudentName3 = "TammiePease";
+		studentNames.add(StudentName3);
+		
 		return studentNames;
 	}
 
