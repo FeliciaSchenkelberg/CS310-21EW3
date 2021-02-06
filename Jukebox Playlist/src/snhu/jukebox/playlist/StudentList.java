@@ -25,6 +25,10 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
+		//adding my name to create myself as a student for the Jukebox app - CY
+		String Cassidy = "Cassidy";
+		studentNames.add(Cassidy);
+		
 		return studentNames;
 	}
 
