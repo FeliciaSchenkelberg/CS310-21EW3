@@ -29,6 +29,13 @@ public class StudentList {
 		String Cassidy = "Cassidy";
 		studentNames.add(Cassidy);
 		
+		//adding name for Tyler Muckley into the jukebox app
+		String Tyler = "Tyler M.";
+		studentNames.add(Tyler);
+		
+	
+		
+		
 		return studentNames;
 	}
 
