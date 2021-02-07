@@ -29,6 +29,9 @@ public class StudentList {
 		String Cassidy = "Cassidy";
 		studentNames.add(Cassidy);
 		
+		String Esi = "Esi";
+		studentNames.add(Esi);
+		
 		return studentNames;
 	}
 
@@ -48,7 +51,11 @@ public class StudentList {
 			   
 			   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
-
+			   
+		   case "Esi_Playlist":
+			   Esi_Playlist EsiPlaylist = new Esi_Playlist();
+			   Student Esi = new Student("Esi", EsiPlaylist.StudentPlaylist());
+			   return Esi;
 		}
 		return emptyStudent;
 	}
