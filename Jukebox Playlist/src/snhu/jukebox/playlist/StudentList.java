@@ -33,6 +33,10 @@ public class StudentList {
 		String Felicia = "Felicia";
 		studentNames.add(Felicia);
 		
+		//Added my name as a new student
+		String AndrewL = "AndrewL";
+		studentNames.add(AndrewL);
+		
 		return studentNames;
 	}
 
