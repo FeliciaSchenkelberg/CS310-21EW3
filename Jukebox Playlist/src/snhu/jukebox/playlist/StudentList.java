@@ -25,6 +25,17 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
+<<<<<<< katie-stapleton-redo
+		//adding my name to create myself as a student for the Jukebox app - CY
+		String Cassidy = "Cassidy";
+		studentNames.add(Cassidy);
+
+		//Added name to create a new student profile
+		String Felicia = "Felicia";
+		studentNames.add(Felicia);
+		
+=======
+>>>>>>> 8c1415c Added myself as a student for the Jukebox app in StudentList.java - CY
 		return studentNames;
 	}
 
