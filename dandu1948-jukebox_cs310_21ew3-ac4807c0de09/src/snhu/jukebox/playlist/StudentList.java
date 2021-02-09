@@ -26,8 +26,8 @@ public class StudentList {
 		//studentNames.add(StudentName3);
 		
 		//Added myself into project as Tammie_Pease leaving code outline for others
-		String StudentName3 = "TammiePease";
-		studentNames.add(StudentName3);
+		String TammiePease = "TammiePease";
+		studentNames.add(TammiePease);
 		
 		return studentNames;
 	}
@@ -46,7 +46,10 @@ public class StudentList {
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
 			   
-			   
+		   case "TammiePease_Playlist":
+			   TammiePease_Playlist tammiePeasePlaylist = new TammiePease_Playlist();
+			   Student TammiePease = new Student("TammiePease", tammiePeasePlaylist.StudentPlaylist());
+			   return TammiePease;   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
 
 		}

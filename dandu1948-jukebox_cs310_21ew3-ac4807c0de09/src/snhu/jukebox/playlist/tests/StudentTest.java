@@ -33,11 +33,11 @@ public class StudentTest {
 	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
 	
 	//Adding myself, Tammie into jukebox code with similar structure
-	public void testGetStudentNameList3() {
+	public void testGetTammiePeaseList() {
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("TestStudent1Name", studentNames.get(2));							//test case if my name goes through
+		assertEquals("TammiePease", studentNames.get(2));							//test case if my name goes through
 	}
 	
 	
@@ -59,5 +59,10 @@ public class StudentTest {
 	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
-	
+	@Test
+	public void testGetTammiePeaseProfile() {
+		TammiePease_Playlist tammiePeasePlaylist = new TammiePease_Playlist();
+		Student TammiePease = new Student("TammiePease", tammiePeasePlaylist.StudentPlaylist());
+		assertEquals("TammiePease", TammiePease.getName());
+	}
 }
