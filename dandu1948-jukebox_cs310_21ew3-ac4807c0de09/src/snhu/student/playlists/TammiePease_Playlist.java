@@ -35,6 +35,27 @@ public class TammiePease_Playlist {
 	playlist.add(skilletTracks.get(1));
 	playlist.add(skilletTracks.get(2));
 	
+	//adding other's songs on this list
+	ArrayList<Song> SOADTracks = new ArrayList<Song>();
+    SystemOfADown soad = new SystemOfADown();
+	
+    SOADTracks = soad.getSystemSongs();	
+	playlist.add(SOADTracks.get(0));
+	
+	ArrayList<Song> maroon5Tracks = new ArrayList<Song>();
+    Maroon5 maroon5 = new Maroon5();
+	
+    maroon5Tracks = maroon5.getMaroon5Songs();	
+	playlist.add(maroon5Tracks.get(1));
+	playlist.add(maroon5Tracks.get(2));
+	
+	ArrayList<Song> queenTracks = new ArrayList<Song>();
+    Queen queen = new Queen();
+	
+    queenTracks = queen.getQueenSongs();	
+	playlist.add(queenTracks.get(1));
+	playlist.add(queenTracks.get(0));
+	
     return playlist;
 	}
 }

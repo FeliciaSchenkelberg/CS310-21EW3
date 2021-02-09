@@ -29,6 +29,18 @@ public class StudentList {
 		String TammiePease = "TammiePease";
 		studentNames.add(TammiePease);
 		
+		//adding my name to create myself as a student for the Jukebox app - CY
+		String Cassidy = "Cassidy";
+		studentNames.add(Cassidy);
+
+		//Added name to create a new student profile
+		String Felicia = "Felicia";
+		studentNames.add(Felicia);
+				
+		//Added my name as a new student
+		String AndrewL = "AndrewL";
+		studentNames.add(AndrewL);
+		
 		return studentNames;
 	}
 
