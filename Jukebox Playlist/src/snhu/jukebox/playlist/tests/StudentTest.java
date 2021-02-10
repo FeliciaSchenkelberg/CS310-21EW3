@@ -32,23 +32,15 @@ public class StudentTest {
 	
 	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
 	
-	//adding unit test case to retrieve my profile - CY
+	// test case needed for new student profile 'Katie Stapleton'
 	@Test
 	public void testGetStudentNameList3() {
 		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
 		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
 		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("Cassidy", studentNames.get(2));									//test case for pass/fail. We expect the first name to be Cassidy. 
+		assertEquals("TestStudent3Name", studentNames.get(2));							//test case to see if the second value contains the name we expect
 	}
 	
-	//test case to check for my name after I have added it to the StudentList
-	@Test
-	public void testGetStudentNameList4() {
-		List<String> studentNames = new ArrayList<String>();						//create variable for student list of names
-		StudentList studentList = new StudentList();							//instantiate the StudentList object so I can access it's methods and properties
-		studentNames = studentList.getStudentsNames();							//populate the studentNames list with the actual values in the StudentsList object
-		assertEquals("Felicia", studentNames.get(3));							//test case for pass/fail
-	}
 	
 	//Module 6 Test Case Area
 	//Test each student profile to ensure it can be retrieved and accessed

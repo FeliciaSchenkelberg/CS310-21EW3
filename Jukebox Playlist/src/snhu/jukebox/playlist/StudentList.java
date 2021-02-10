@@ -25,17 +25,10 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
-<<<<<<< katie-stapleton-redo
-		//adding my name to create myself as a student for the Jukebox app - CY
-		String Cassidy = "Cassidy";
-		studentNames.add(Cassidy);
-
-		//Added name to create a new student profile
-		String Felicia = "Felicia";
-		studentNames.add(Felicia);
+		// new student profile needed for Katie Stapleton
+		String katieStapleton = "Katie Stapleton";
+		studentNames.add(katieStapleton);
 		
-=======
->>>>>>> 8c1415c Added myself as a student for the Jukebox app in StudentList.java - CY
 		return studentNames;
 	}
 
@@ -46,7 +39,7 @@ public class StudentList {
 		   case "TestStudent1_Playlist":
 			   TestStudent1_Playlist testStudent1Playlist = new TestStudent1_Playlist();
 			   Student TestStudent1 = new Student("TestStudent1", testStudent1Playlist.StudentPlaylist());
-			   return TestStudent1;
+		       return TestStudent1;
 			   
 		   case "TestStudent2_Playlist":
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
