@@ -32,4 +32,27 @@ public class JukeboxTest {
 		 assertEquals(3, adelesTracks.size());
 	}
 	
+	// added test case for artist 'Shinedown'
+	// NOTE: please update song size if added songs - KS
+	// author(s): Katie Stapleton
+	@Test
+	public void testGetShinedownAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Shinedown shinedown = new Shinedown();
+		 ArrayList<Song> shinedownTracks = new ArrayList<Song>();
+		 shinedownTracks = shinedown.getShinedownSongs();
+		 assertEquals(3, shinedownTracks.size());
+	}
+	
+	// added test case for artist 'Disturbed'
+	// NOTE: please update song size if added songs - KS
+	// author(s): Katie Stapleton
+	@Test
+	public void testGetDisturbedAlbumSize() throws NoSuchFieldException, SecurityException {
+		 Disturbed disturbed = new Disturbed();
+		 ArrayList<Song> disturbedTracks = new ArrayList<Song>();
+		 disturbedTracks = disturbed.getDisturbedSongs();
+		 assertEquals(3, disturbedTracks.size());
+	}
+	
+	
 }
