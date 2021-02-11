@@ -54,5 +54,13 @@ public class JukeboxTest {
 		 assertEquals(3, disturbedTracks.size());
 	}
 	
+	@Test
+	public void testGetNineInchNailsAlbumSize() throws NoSuchFieldException, SecurityException {
+		 NineInchNails nineInchNails = new NineInchNails();
+		 ArrayList<Song> nineInchNailsTracks = new ArrayList<Song>();
+		 nineInchNailsTracks = nineInchNails.getNINSongs();
+		 assertEquals(3, nineInchNailsTracks.size());
+	}
+	
 	
 }

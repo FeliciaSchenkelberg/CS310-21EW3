@@ -28,6 +28,35 @@ public class KatieStapleton_Playlist {
 	playlist.add(imagineDragonsTracks.get(1));
 	playlist.add(imagineDragonsTracks.get(2));
 	
+	// added tracks of 3 artists to playlist
+	
+    Disturbed disturbedBand = new Disturbed();
+	ArrayList<Song> disturbedTracks = new ArrayList<Song>();
+    disturbedTracks = disturbedBand.getDisturbedSongs();
+	
+	playlist.add(disturbedTracks.get(0));
+	playlist.add(disturbedTracks.get(1));
+	playlist.add(disturbedTracks.get(2));
+
+	
+    Shinedown shinedownBand = new Shinedown();
+	ArrayList<Song> shinedownTracks = new ArrayList<Song>();
+    shinedownTracks = shinedownBand.getShinedownSongs();
+	
+	playlist.add(shinedownTracks.get(0));
+	playlist.add(shinedownTracks.get(1));
+	playlist.add(shinedownTracks.get(2));
+	
+	
+    NineInchNails nineInchNailsBand = new NineInchNails();
+	ArrayList<Song> nineInchNailsTracks = new ArrayList<Song>();
+    nineInchNailsTracks = nineInchNailsBand.getNINSongs();
+	
+	playlist.add(nineInchNailsTracks.get(0));
+	playlist.add(nineInchNailsTracks.get(1));
+	playlist.add(nineInchNailsTracks.get(2));
+	
+	
     return playlist;
 	}
 }
