@@ -25,9 +25,9 @@ public class StudentList {
 		//String StudentName3 = "TestStudent3Name";
 		//studentNames.add(StudentName3);
 		
-		// new student profile needed for Katie Stapleton
-		String katieStapleton = "Katie Stapleton";
-		studentNames.add(katieStapleton);
+		// student profile needed for Katie Stapleton
+		String KatieStapletonName = "Katie Stapleton";
+		studentNames.add(KatieStapletonName);
 		
 		return studentNames;
 	}
@@ -45,9 +45,14 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
-			   
-			   
+			
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
+		   
+		   // test case needed for student Katie Stapleton
+		   case "KatelynStapleton_Playlist":
+			   KatieStapleton_Playlist KatieStapletonPlaylist = new KatieStapleton_Playlist();
+			   Student TestKatieStapleton = new Student("Katie Stapleton", KatieStapletonPlaylist.StudentPlaylist());
+			   return TestKatieStapleton;		   
 
 		}
 		return emptyStudent;
