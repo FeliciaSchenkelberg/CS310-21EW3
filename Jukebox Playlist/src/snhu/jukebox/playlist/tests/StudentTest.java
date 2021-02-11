@@ -30,8 +30,13 @@ public class StudentTest {
 		assertEquals("TestStudent2Name", studentNames.get(1));							//test case to see if the second value contains the name we expect
 	}
 	
-	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
-	
+	//Turns out I forgot to do this in Module 5... Creating variable for my profile
+	public void testGetStudentNameList3() {
+		List<String> studentNames = new ArrayList<String>();							//create variable for student list of names
+		StudentList studentList = new StudentList();									//instantiate the StudentList object so we can access it's methods and properties
+		studentNames = studentList.getStudentsNames();									//populate the studentNames list with the actual values in the StudentsList object
+		assertEquals("AndrewSwarr", studentNames.get(4));
+	}
 	
 	
 	
@@ -51,6 +56,11 @@ public class StudentTest {
 		assertEquals("TestStudent2", TestStudent2.getName());
 	}
 	
-	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
-	
+	//Module 6 - added my test case for my studenlist profile
+	@Test
+	public void andrewSwarrProfile() {
+		AndrewSwarr_Playlist andrewSwarrPlaylist = new AndrewSwarr_Playlist();
+		Student AndrewSwarr = new Student("AndrewSwarr", andrewSwarrPlaylist.StudentPlaylist());
+		assertEquals("AndrewSwarr", AndrewSwarr.getName());
+	}
 }
