@@ -49,10 +49,13 @@ public class StudentList {
 			   TestStudent2_Playlist testStudent2Playlist = new TestStudent2_Playlist();
 			   Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 			   return TestStudent2;
-			   
-			   
+		   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
-
+		   
+		   case "Cassidy_Playlist":															//adding test case for input "Cassidy_Playlist" - CY
+			   Cassidy_Playlist CassidyPlaylist = new Cassidy_Playlist();
+			   Student Cassidy = new Student("Cassidy", CassidyPlaylist.StudentPlaylist()); //linking CassidyPlaylist to my student file Cassidy - CY
+			   return Cassidy;																//outputting Cassidy - CY
 		}
 		return emptyStudent;
 	}
