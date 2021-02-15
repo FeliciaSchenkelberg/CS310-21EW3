@@ -9,10 +9,10 @@ public class Counterparts {
 	ArrayList<Song> albumTracks;
     String albumTitle;
     
-    public ImagineDragons() {
+    public Counterparts() {
     }
     
-    public ArrayList<Song> getImagineDragonsSongs() {
+    public ArrayList<Song> getCounterpartsSongs() {
     	
     	 albumTracks = new ArrayList<Song>();                           //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Arms Like Teeth", "Counterparts");         //Create a song

@@ -9,10 +9,10 @@ public class AugustBurnsRed {
 	ArrayList<Song> albumTracks;
     String albumTitle;
     
-    public ImagineDragons() {
+    public AugustBurnsRed() {
     }
     
-    public ArrayList<Song> getImagineDragonsSongs() {
+    public ArrayList<Song> getABRSongs() {
     	
     	 albumTracks = new ArrayList<Song>();                           //Instantiate the album so we can populate it below
     	 Song track1 = new Song("Meddler", "August Burns Red");         //Create a song

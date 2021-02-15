@@ -55,7 +55,10 @@ public class StudentList {
 			   
 			   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
-
+		   case "Muckley_Playlist":
+			   Muckley_Playlist muckleyPlaylist = new Muckley_Playlist();
+			   Student muckleyStudent = new Student("TestStudent2", muckleyPlaylist.StudentPlaylist());
+			   return muckleyStudent;	   
 		}
 		return emptyStudent;
 	}

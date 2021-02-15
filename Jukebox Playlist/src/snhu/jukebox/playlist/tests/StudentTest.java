@@ -65,8 +65,12 @@ public class StudentTest {
 		Student TestStudent2 = new Student("TestStudent2", testStudent2Playlist.StudentPlaylist());
 		assertEquals("TestStudent2", TestStudent2.getName());
 	}
-	
-	
+	@Test
+	public void testGetMuckleyProfile() {
+		Muckley_Playlist testMuckleyPlaylist = new Muckley_Playlist();						//instantiating the variable for a specific student
+		Student TestMuckleyStudent = new Student("Tyler M", testMuckleyPlaylist.StudentPlaylist());		//creating populated student object
+		assertEquals("Tyler M.", TestMuckleyStudent.getName());	
+	}
 	
 	//Module 6 - Add your unit test case here to check for your profile after you have added it to the StudentList
 	
