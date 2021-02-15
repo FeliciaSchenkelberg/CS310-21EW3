@@ -31,7 +31,13 @@ public class StudentTest {
 	}
 	
 	//Module 5 - Add your unit test case here to check for your name after you have added it to the StudentList
-	
+	@Test
+	public void GetStudentNameList3() {
+		List<String> studentNames = new ArrayList<String>();
+		StudentList studentList = new StudentList();
+		studentNames = studentList.getStudentsNames();
+		assertEquals("Benjamin Darwin", studentNames.get(2));
+	}
 	
 	
 	
