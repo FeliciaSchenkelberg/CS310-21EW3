@@ -20,4 +20,9 @@ public class KingsOfLeon {
          this.albumTracks.add(track2);                                          //Add the second song to song list for Kings Of Leon 
          return albumTracks;                                                    //Return the songs for Kings Of Leon in the form of an ArrayList
     }
+
+	public ArrayList<Song> getKOLSongs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

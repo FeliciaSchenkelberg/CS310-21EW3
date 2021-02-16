@@ -22,4 +22,9 @@ public class FosterThePeople {
          this.albumTracks.add(track3);                                          //Add the third song to song list for Foster The People
          return albumTracks;                                                    //Return the songs for Foster The People in the form of an ArrayList
     }
+
+	public ArrayList<Song> getFTPSongs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
