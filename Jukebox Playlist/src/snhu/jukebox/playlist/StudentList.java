@@ -28,6 +28,10 @@ public class StudentList {
 		//adding my name to create myself as a student for the Jukebox app - CY
 		String Cassidy = "Cassidy";
 		studentNames.add(Cassidy);
+		
+		//Added name to create a new student profile
+		String Esi = "Esi";
+		studentNames.add(Esi);
 
 		//Added name to create a new student profile
 		String Felicia = "Felicia";
@@ -52,7 +56,10 @@ public class StudentList {
 			   
 			   
 		   //Module 6 Code Assignment - Add your own case statement for your profile. Use the above case statements as a template.
-
+		   case "Esi_Playlist":
+			   			   Esi_Playlist EsiPlaylist = new Esi_Playlist();
+			   			   Student Esi = new Student("Esi", EsiPlaylist.StudentPlaylist());
+			   			   return Esi;
 		}
 		return emptyStudent;
 	}
