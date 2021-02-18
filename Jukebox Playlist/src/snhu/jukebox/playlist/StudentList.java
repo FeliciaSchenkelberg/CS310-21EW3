@@ -37,6 +37,10 @@ public class StudentList {
 		String Felicia = "Felicia";
 		studentNames.add(Felicia);
 		
+		//Added name to create a new student profile
+		String Tonio = "Tonio";
+		studentNames.add(Tonio);
+		
 		return studentNames;
 	}
 
