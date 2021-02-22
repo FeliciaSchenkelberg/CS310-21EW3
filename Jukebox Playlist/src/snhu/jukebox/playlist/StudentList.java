@@ -37,6 +37,10 @@ public class StudentList {
 		String Felicia = "Felicia";
 		studentNames.add(Felicia);
 		
+		//Added name to create a new student profile 
+		String Tonio = "Tonio";
+		studentNames.add(Tonio);
+		
 		return studentNames;
 	}
 
@@ -60,6 +64,11 @@ public class StudentList {
 			   			   Esi_Playlist EsiPlaylist = new Esi_Playlist();
 			   			   Student Esi = new Student("Esi", EsiPlaylist.StudentPlaylist());
 			   			   return Esi;
+			   			  //Added student profile with same case template.
+		   case "tonio_Playlist":
+			   tonio_Playlist tonioPlaylist = new tonio_playlist();
+			   Student Tonio = new Student("Tonio", tonioPlaylist.StudentPlaylist());
+			   return Tonio;
 		}
 		return emptyStudent;
 	}
