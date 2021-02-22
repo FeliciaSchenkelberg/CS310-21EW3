@@ -1,0 +1,38 @@
+package snhu.student.playlist;
+
+import snhu.jukebox.playlist.PlayableSong;
+
+public class toniothurman_playlist {
+	public LinkedList<PlayableSong> StudentPlaylist(){
+		
+		LinkedList<PlayableSong> playlist = new LinkedList<PlayableSong>();
+		ArrayList<Song> SZATracks = new ArrayList<Song>();
+	    TheSza SZATracks = new TheSza();
+		
+	    SZATracks = SZAplaylist.getSzaSongs();
+		
+		playlist.add(SZATracks.get(0));
+		playlist.add(SZATracks.get(1));
+		
+		
+	    BlackeyedPeas BlackeyedPeasBand = new BlackeyedPeas();
+		ArrayList<Song> BlackeyedpeasTracks = new ArrayList<Song>();
+	    BlackeyedPeasTracks = BlackeyedPeasBand.getBlackeyedPeasSongs();
+		
+		playlist.add(BlackeyedpeasTracks.get(0));
+		playlist.add(BlackeyedpeasTracks.get(1));
+		playlist.add(BlackeyedpeasTracks.get(2));
+		
+	    Maroon5 Maroon5Band = new Maroon5();
+		ArrayList<Song> Maroon5Tracks = new ArrayList<Song>();
+	    Maroon5Tracks = Maroon5Band.getMaroon5Songs();
+		
+		playlist.add(Maroon5Tracks.get(0));
+		playlist.add(Maroon5Tracks.get(1));
+		playlist.add(Maroon5Tracks.get(2));
+		
+	    return playlist;
+		}
+	
+
+}
